@@ -7,9 +7,9 @@ from multiprocessing import Pool
 from threading import BoundedSemaphore
 
 
-RCC_CATH_DB = "CATHVectors.txt"
-DOMPDB_DIR = "/Users/rcc/Doctorado/CATH/dompdb"
-CDLfile = "/Users/rcc/Doctorado/CATH/CathDomainList.v4.0.0"
+RCC_CATH_DB = "CATHvectors.txt"
+DOMPDB_DIR = "dompdb"
+CDLfile = "CathDomainList.v4.0.0"
 
 pool_sema = BoundedSemaphore(value=1)
 
